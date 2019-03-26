@@ -1,0 +1,44 @@
+{
+  "name": "zhihu-daily-cli",
+  "version": "0.0.2",
+  "description": "CLI for Zhihu Daily",
+  "main": "index.js",
+  "bin": {
+    "zhihu": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "zhihu",
+    "daily",
+    "cli"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yrming/zhihu-daily-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yrming/zhihu-daily-cli/issues"
+  },
+  "author": "yrming",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "commander": "^2.9.0",
+    "figlet": "^1.2.0",
+    "gradient-string": "^1.1.0",
+    "import-lazy": "^3.1.0",
+    "ora": "^3.0.0",
+    "superagent": "^3.8.3",
+    "term-img": "^4.0.0",
+    "terminal-link": "^1.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.3.4",
+    "@babel/plugin-transform-async-to-generator": "^7.3.4",
+    "@babel/preset-env": "^7.3.4"
+  }
+}

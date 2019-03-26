@@ -17,8 +17,8 @@ $ npm i -g zhihu-daily-cli
 ### Commands
 
 ```bash
-$ one -v    # Show version
-$ one today   # Show today info
+$ zhihu -v    # Show version
+$ zhihu today   # Show today info
 ```
 ## License
 

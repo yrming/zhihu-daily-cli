@@ -1,6 +1,6 @@
 {
   "name": "zhihu-daily-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "CLI for Zhihu Daily",
   "main": "index.js",
   "bin": {
